@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 5px;
+    padding: 5px;
+   
+}
+.hearder{
+    background: #d1bdbd;
+    margin: 10px;
+    width: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block ;
+    padding: 10px;
+}
+ul li a{
+    color: #f3eded;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+    color: #ecf2ee;
+    text-decoration: none   ;
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    padding: 35px;
+    text-align: right;
+}
+input[type="search"]{
+    font-size: 17px;
+}
+.nava{
+    background: #169647;
+}

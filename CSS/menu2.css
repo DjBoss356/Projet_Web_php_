@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* .header{
+    width: 100%;
+}
+
+@media  screen and (max-width : 830px) {
+    .menu{
+        display: flex;
+        flex-direction: column
+    }
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline ;
+    padding: 100px;
+}
+ul li a{
+    color: #000000;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+}
+ul li a:hover{
+    color: #1f4919;
+    text-decoration: none   ;
+}
+.menu{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,255,46);
+    background: linear-gradient(169deg, rgba(0,255,46,0.3925945378151261) 0%,
+    rgba(198,255,206,1) 38%,
+    rgba(177,226,182,1) 65%,
+    rgba(121,255,113,1) 100%);
+    height: 20%;
+}
+.menu li{
+    padding: 5px;
+    display: inline;
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-family: "Familjen Grotesk";
+}
+form{
+    padding: 35px;
+    text-align: right;
+}
+input[type="search"]{
+    font-size: 17px;
+} */
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px 100px;
+}
+.box-content{
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    background-size: cover;
+}
+
+.box-text{
+    font-size: 30px;
+}
+.info{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/info.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.modifInfo{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/infoModif.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.addUser{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/ajouter.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+.suppUser{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/supprimer-lutilisateur.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.listEmp{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/employe.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.modifRol{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/employeRole.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+.fichePaie{
+    
+    /* background-color: rgba(0, 0, 0, 0.2);/* Opacité de 0.5 (50%) */
+    /* background-image: url(../Sapres_image/1.jpg); */ 
+
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../Image/securite.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.info h1{
+    
+}
+
+img{
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+}

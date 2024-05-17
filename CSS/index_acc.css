@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+@media screen and (max-width : 1024px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subcontaine-right{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; 
+    }
+
+    .imageLogin{
+        display: none;
+    }
+
+    .textH{
+        font-size: 36px;
+    }
+    .input{
+        width: 311px;
+    }
+
+    .linksignup{
+        left: 120px;
+    }
+
+    form{
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .container{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+        /*transform: translate(500px,-950px);*/
+    }
+
+    .subcontaine-right{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-right: 150px;
+      margin-left: 20px;
+    }
+
+    .subcontaine-left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+    form{
+        gap: 50px;
+    }
+
+    .imageLogin{
+        zoom: 1.1;
+        border-radius: 12px;
+        height: 60vh;
+    }
+
+    .textH{
+        font-size: 50px;
+    }
+
+    .texth{
+        display: inline;
+        margin-bottom: 50px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .input{
+        width: 450px;
+    }
+
+    .linksignup{
+        
+    }
+    
+}
+
+.image-bg{
+  background-image: url("../Sapres_image/3.jpg");
+  background-size: cover;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 40px 0px 30px 0px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+
+.textH{
+    color: #000;
+    font-family: "Familjen Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.texth{
+    color: #B1B1B1;
+    text-align: center;
+    font-family: "Familjen Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.label{
+    color: #000;
+    font-family: "Familjen Grotesk";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 200% */
+}
+
+form input::placeholder{
+    color: #B1B1B1;
+    font-family: "Familjen Grotesk";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 240% */
+}
+.input{
+    display: flex;
+    padding: 10px 24px 10px 18px;
+    align-items: center;
+    gap: 12px;
+    font-family: "Familjen Grotesk";
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px solid #B1B1B1;
+    background-image: url("C:\xampp\htdocs\img\profil.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px; 
+}
+    
+
+.input:focus{
+    border: 2px solid #B1B1B1;
+}
+
+
+.linksignup{
+    color: #818ED5;
+    font-family: "Familjen Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 200% */
+    text-decoration: none;
+    position: relative;
+}
+
+.linksignup:hover{
+    text-decoration: underline;
+}
+
+.btnsubmit{
+    display: flex;
+    width: 357px;
+    padding: 10px 2px 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #2A08F8;
+    color: #FFF;
+    font-family: "Familjen Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    cursor: pointer;
+}
+
+.box-btn-submit{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnsubmitgoogle{
+    display: flex;
+    width: 357px;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #B1B1B1;
+    background-color: white;
+    color: #000;
+    font-family: "Familjen Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.textquestion{
+    color: #D1D1D1;
+    text-align: center;
+    font-family: "Familjen Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 200% */
+    margin-top: 20px;
+}
+
+.linklogin{
+    color: #818ED5;
+    font-family: "Familjen Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+.linklogin:hover{
+    text-decoration: underline;
+}
+
+
+

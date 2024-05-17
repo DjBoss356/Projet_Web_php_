@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.profil{
+    border-radius: 50px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.titre_tab{
+    text-align: center;
+}
+.deco{
+    text-align: right;
+    border-radius: 2px;
+    font-family: "Familjen Grotesk";
+}
+
+.logo{
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+.acc{
+    text-align: left;
+    border-radius: 2px;
+    color: brown;
+}
+/*   */
+body{
+    font-family: 'Inter',sans-serif;
+}
+.realisation{
+    height: auto;
+    aspect-ratio:1/1 ;
+    position: relative;
+}
+.realisation:hover img{
+    filter: brightness(80%);
+}
+.nom_ad{
+    color: blue;
+}
+.hello-name{
+    text-align: center;
+    margin-top: 70px;
+}
